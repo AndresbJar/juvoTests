@@ -1,13 +1,10 @@
-package org.aps.interactions;
+package org.aps.features.instalation.interactions;
 
 import io.appium.java_client.AppiumDriver;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.actions.Click;
 import net.thucydides.core.annotations.findby.By;
-import org.aps.questions.ActividadActual;
-import org.aps.userinterface.InstalacionPage;
 import org.aps.utils.UseAppium;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;

@@ -1,16 +1,13 @@
 package stepdefinitions;
 
-import io.cucumber.java.es.Dado;
-import io.cucumber.java.es.Cuando;
-import io.cucumber.java.es.Entonces;
 import io.cucumber.java.en.*;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
 import org.aps.utils.AppiumDriverFactory;
 import org.aps.utils.UseAppium;
-import org.aps.questions.ActividadActual;
-import org.aps.tasks.CompletarInstalacion;
+import org.aps.features.instalation.questions.ActividadActual;
+import org.aps.features.instalation.tasks.CompletarInstalacion;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
 import java.net.MalformedURLException;

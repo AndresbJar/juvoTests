@@ -1,4 +1,4 @@
-package org.aps.interactions;
+package org.aps.features.instalation.interactions;
 
 import io.appium.java_client.AppiumDriver;
 import net.serenitybdd.screenplay.Actor;

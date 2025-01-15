@@ -1,13 +1,11 @@
-package org.aps.questions;
+package org.aps.features.instalation.questions;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import org.aps.utils.UseAppium;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.By;
-import java.time.Duration;
+
 import java.util.logging.Logger;
 
 public class ActividadActual implements Question<Boolean> {

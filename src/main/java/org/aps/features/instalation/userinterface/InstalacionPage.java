@@ -1,4 +1,4 @@
-package org.aps.userinterface;
+package org.aps.features.instalation.userinterface;
 
 import net.serenitybdd.screenplay.targets.Target;
 

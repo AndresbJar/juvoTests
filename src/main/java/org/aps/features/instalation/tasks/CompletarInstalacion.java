@@ -1,12 +1,10 @@
-package org.aps.tasks;
+package org.aps.features.instalation.tasks;
 
-import net.serenitybdd.screenplay.actions.Click;
-import org.aps.interactions.ClickEnBotonLogin;
-import org.aps.interactions.IngresarClave;
+import org.aps.features.instalation.interactions.ClickEnBotonLogin;
+import org.aps.features.instalation.interactions.IngresarClave;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
-import org.aps.userinterface.InstalacionPage;
 
 public class CompletarInstalacion implements Task {
     private final String clave;
